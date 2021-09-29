@@ -13,7 +13,7 @@ public class FrequentCharacter {          //Doubt
         for (int i = str.length() - 1; i >= 0 ; i--) {
             char ch = str.charAt(i);
             if (frequency[ch] == 2) {
-                return ("" + ch);
+                return (" " + ch);
             }
         }
             return "-1";
